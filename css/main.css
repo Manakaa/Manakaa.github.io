@@ -1873,7 +1873,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #394dff;
+  background: #1a3920;
 }
 .site-author-image {
   display: block;
@@ -2823,9 +2823,6 @@ embed {
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
 }
-body {
-  background: url("/images/backGround.jpg");
-}
 .post {
   margin-top: 60px;
   margin-bottom: 60px;
@@ -2840,4 +2837,15 @@ body {
 .post-body p a:hover {
   color: #0477ab;
   text-decoration: underline;
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+  }
+  #footer a {
+    color: #eee;
+  }
 }
