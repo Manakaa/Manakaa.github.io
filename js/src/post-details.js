@@ -104,5 +104,4 @@ $(document).ready(function () {
     });
     //默认情况下折叠
     $("div.fold").css("display","none");
-  });
-  
+});
