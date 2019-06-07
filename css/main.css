@@ -1914,7 +1914,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fcf;
+  background: #d6e5ff;
 }
 .site-author-image {
   display: block;
@@ -3239,4 +3239,14 @@ body #footer > div > div {
 }
 .open:before {
   content: "▲";
+}
+.main-inner {
+  padding: initial;
+  min-height: initial;
+}
+.post {
+  margin-top: initial;
+}
+.posts-expand {
+  padding-top: initial;
 }
